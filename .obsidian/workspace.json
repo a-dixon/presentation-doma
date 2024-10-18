@@ -41,11 +41,11 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "README.md",
-                "staged": false
+                "file": ".obsidian/core-plugins.json",
+                "staged": true
               },
               "icon": "git-pull-request",
-              "title": "Diff View (README)"
+              "title": "Diff View (core-plugins.json)"
             }
           }
         ],
@@ -201,9 +201,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fb4e903e21e3a8b",
+  "active": "99625aac780fe6dd",
   "lastOpenFiles": [
-    "Podcast.md",
+    "Sources/Podcast.md",
     "Domain-Oriented Microservices Architecture von Uber.md",
     "Untitled",
     "Sources",
