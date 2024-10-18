@@ -54,16 +54,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Uber Documentation.md",
+                "file": "Research/Implementierung von Uber.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Uber Documentation"
+              "title": "Implementierung von Uber"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,21 +215,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99625aac780fe6dd",
+  "active": "4fb4e903e21e3a8b",
   "lastOpenFiles": [
-    "Domain-Oriented Microservices Architecture von Uber.md",
-    "Sources/Uber Documentation.md",
     "Sources/Podcast.md",
+    "Research/Implementierung von Uber.md",
+    "Research/Auswirkungen.md",
+    "Sources/Uber Documentation.md",
+    "Domain-Oriented Microservices Architecture von Uber.md",
+    "Research/Clean Architecture.md",
+    "Research/Bewertung der Fallstudie.md",
     "Untitled",
     "Sources",
     "README.md",
     "Organisation",
-    "Research/Implementierung von Uber.md",
     "Research/Microservices.md",
-    "Research/Auswirkungen.md",
-    "Research/Bewertung der Fallstudie.md",
     "Research/Domain-Oriented Microservices Architecture.md",
-    "Research/Clean Architecture.md",
     "Research/SOA.md",
     "Research/DDD.md",
     "Research/Einleitung.md",
