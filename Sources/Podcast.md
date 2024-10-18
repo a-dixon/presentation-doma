@@ -24,7 +24,7 @@ Hier ist eine kleine Zusammenfassung des Podcasts. Ergänzt die Notizen gerne!
 	- Obere Schichten dürfen unteren Verwenden, nicht umgekehrt
 	- Untere Layer generisch -> Obere Spezifisch
 	- Potentielles Problem: Synchrone Microservices (Einer fällt in der Kette aus -> Problem)
-	- Möglische Layer: Infrastructure (Von allem genutzt) -> Business (Logik, die von vielen Produkten genutzt werden können) -> Product (Spezifisch für eine Produktkategorie) -> Presentation (Funktionalität für Kundenanwendungen (Mobile oder Web)) -> Edge (Exponieren von Schnittstelle zum Kunden)
+	- Mögliche Layer: Infrastructure (Von allem genutzt) -> Business (Logik, die von vielen Produkten genutzt werden können) -> Product (Spezifisch für eine Produktkategorie) -> Presentation (Funktionalität für Kundenanwendungen (Mobile oder Web)) -> Edge (Exponieren von Schnittstelle zum Kunden)
 	- Notiz: Wie wird das durchgesetzt? Sonst Zweifel an konstanter Einhaltung
 - Gateway: Schnittstellen für Domainen
 	- Ziel: Zukünftige Migrationen erleichtern und Systemkomplexität verringern -> Hält er für realistisch
@@ -40,11 +40,11 @@ Hier ist eine kleine Zusammenfassung des Podcasts. Ergänzt die Notizen gerne!
 	- Custom:
 		- Aufgaben mit D(irected) A(cyclic) G(raph) ausführen
 		- Meinung: Zuständigkeit werden aufgelöst
-- Debuggen mit vielen Abhängigekeiten mit vielen Teams:
+- Debuggen mit vielen Abhängigkeiten mit vielen Teams:
 	- Angegangen durch Gateways -> Logik hinter Gateways schwerer einsehbar
 	- Alternative: Fachlichkeit anders formieren und Teams anders aufstellen
 - Komplexe Abhängigkeiten: Gelöst mit Gateways durch Reduzierung der Abhängigkeiten auf Schnittstellen der Domainen (Abstimmungsaufwand steigt potenziell)
-- Teams pfuschen sich ein: Legalisiert durch Extensions (Er wäre vorsichtig, da möglicherweise Workaround gebaut wurde, um fachlisches Problem zu umgehen -> Seiteneffekte, die niemand versteht entstehen?)
+- Teams pfuschen sich ein: Legalisiert durch Extensions (Er wäre vorsichtig, da möglicherweise Workaround gebaut wurde, um fachliches Problem zu umgehen -> Seiteneffekte, die niemand versteht entstehen?)
 - Latenzbalg: Wird schlimmer, weil Gateways zusätzlich eingebaut werden
 - Aussage von Uber: 50% aller Microservices werden in 1,5 Jahren neu geschrieben
 	- Meinung: Überraschend, kann aber sinnvoll -> Er will wissen, ob das ein Bug oder ein Feature ist
@@ -53,5 +53,5 @@ Hier ist eine kleine Zusammenfassung des Podcasts. Ergänzt die Notizen gerne!
 	- Was man sieht weißt nicht auf Nutzung von DDD hin
 	- Nichtinterpretierbare Daten speichern ist voll blöd
 - Meinung: Organisationsprobleme angesprochen, aber Lösungen beziehen sich rein auf die technische Seite
-- Frgen:
+- Fragen:
 	- Modularisierung wird durch Extensions aufgeweicht
