@@ -39,13 +39,14 @@
             "id": "4fb4e903e21e3a8b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Sources/Podcast Summary by RecallAI.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "Podcast Summary by RecallAI"
             }
           },
           {
@@ -218,21 +219,22 @@
   "active": "4fb4e903e21e3a8b",
   "lastOpenFiles": [
     "Sources/Podcast.md",
-    "Research/Implementierung von Uber.md",
-    "Research/Auswirkungen.md",
-    "Sources/Uber Documentation.md",
+    "Sources/Podcast Summary by RecallAI.md",
     "Domain-Oriented Microservices Architecture von Uber.md",
+    "README.md",
+    "Sources/Uber Documentation.md",
+    "Research/Auswirkungen.md",
+    "Research/SOA.md",
+    "Research/Microservices.md",
+    "Research/Implementierung von Uber.md",
+    "Research/Einleitung.md",
+    "Research/Domain-Oriented Microservices Architecture.md",
+    "Research/DDD.md",
     "Research/Clean Architecture.md",
     "Research/Bewertung der Fallstudie.md",
     "Untitled",
     "Sources",
-    "README.md",
     "Organisation",
-    "Research/Microservices.md",
-    "Research/Domain-Oriented Microservices Architecture.md",
-    "Research/SOA.md",
-    "Research/DDD.md",
-    "Research/Einleitung.md",
     "Research"
   ]
 }
