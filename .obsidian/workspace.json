@@ -11,10 +11,13 @@
             "id": "eeebe073e77e9fdd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "diff-view",
+              "state": {
+                "file": "Sources/Podcast/Podcast Summary by RecallAI.md",
+                "staged": true
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (Podcast Summary by RecallAI)"
             }
           }
         ]
@@ -167,6 +170,11 @@
   },
   "active": "eeebe073e77e9fdd",
   "lastOpenFiles": [
+    "Sources/Podcast/Podcast Summary by RecallAI.md",
+    "Sources/Podcast/Podcast (von Linus).md",
+    "Sources/Uber Documentation.md",
+    "Sources/Podcast",
+    "Sources",
     "Domain-Oriented Microservices Architecture von Uber.md",
     "README.md",
     "Research/Implementierung von Uber.md",
