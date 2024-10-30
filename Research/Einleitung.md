@@ -1,4 +1,4 @@
- ## Uber Vorstellung
+## Uber Vorstellung
 - Dienstleistungsunternehmen
 - Gründung März 2009 in San Francisco - https://www.uber.com/de/newsroom/history/
 - Produkte / Dienstleistungen [https://www.uber.com/de/en/?uclick_id=97e7fdf3-88d5-4fff-8fa5-eec9198df8c5]
