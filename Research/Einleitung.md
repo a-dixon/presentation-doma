@@ -9,7 +9,7 @@
 	- Uber for Business
 	- Uber Freight
 
-### Ausgangssituation (2-stellige Anzahl an Entwicklern)
+### Ausgangssituation (2-stellige Anzahl an Entwicklern) - https://www.uber.com/en-DE/blog/microservice-architecture/
 - 2 Monolithen, folgende Probleme ergaben sich hierbei:
 	- Verfügbarkeit - Ein einziger Fehler kann zum Absturz des gesamten Monolithen führen
 	- Deployments - Risikoreich und zeitaufwändig (vorallem wegen eventueller rollbacks) -> teuer
@@ -22,7 +22,7 @@ Umstieg auf Microservice Architektur (3-stellige Anzahl an Entwicklern)
 - Klarere Grenzen zwischen den Services -> klarere Verantwortlichkeiten der Teams
 - Weniger Abhängigkeiten zwischen den Teams -> unabhängige Deployments -> Teams können in ihrer Geschwindigkeit arbeiten.
 
-## Motivation für Umstieg auf DOMA:
+## Motivation für Umstieg auf DOMA: - https://www.uber.com/en-DE/blog/microservice-architecture/
 
 Weiteres Wachstum auf 4-stellige Anzahl an Entwicklern + Steigende Komplexität des Systems
 - Entwickler mussten sich um die 50 Microservices aus 12 verschiedenen Teams anschauen um die Ursache eines einzigen Problems zu finden
