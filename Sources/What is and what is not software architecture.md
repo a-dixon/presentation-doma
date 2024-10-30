@@ -1,0 +1,1 @@
+https://rogelio-consejo.medium.com/what-is-and-what-is-not-software-architecture-c3205a90aa77
