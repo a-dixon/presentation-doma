@@ -1,0 +1,1 @@
+https://rogelio-consejo.medium.com/why-ubers-doma-is-wrong-8c14999ceadb
