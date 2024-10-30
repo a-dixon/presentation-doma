@@ -1,9 +1,15 @@
+Linus
 - Domains sind Sammlungen in Beziehung stehender Microservices
 - Beispiele von Domains bei Uber
 	- Map Search Engine
 	- Fare Service
 	- Matching Platform
 ---
+Linus
+- Gateways sind Schnittstellen von Domains
+- Einschränkung von Abhängigkeiten, Abstraktion der Komplexität in der Kommunikation zwischen Services / Domains
+---
+Alex
 - Layers sind Sammlungen von Domains ![[Layer-Architecture.png]] 
 - Layer bei Uber
 	- Edge
@@ -17,9 +23,7 @@
 	- Infrastructure
 		- Funktionalität, die von jeder Engineering Organisation genutzt werden kann, wie Storage und Netzwerk.
 ---
-- Gateways sind Schnittstellen von Domains
-- Einschränkung von Abhängigkeiten, Abstraktion der Komplexität in der Kommunikation zwischen Services / Domains
----
+Alex
 - Extensions sind ein Mechanismus um Domains zu erweitern
 - Ein Service wird in seiner Funktionalität erweitert, ohne die Implementierung des Services zu ändern und ohne die Verfügbarkeit und Resilienz zu beeinflussen.
 - Bei Uber gibt es zwei Extension Models:

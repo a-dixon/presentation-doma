@@ -1,3 +1,4 @@
+Alex
 https://www.uber.com/en-DE/blog/microservice-architecture/
 - Erweiterung der Service Oriented Architecture
 - Applikationen mit eng zugeschnittenem Funktionsumfang
@@ -6,7 +7,7 @@ https://www.uber.com/en-DE/blog/microservice-architecture/
 	- Eine Monolithische Applikation wird in gekapselte Komponenten mit klar definierten Interfaces aufgeteilt. Die Komponenten rufen sich gegenseitig direkt innerhalb des Prozesses auf
 	- In einer Microservice Architektur finden diese Aufrufe über das Netzwerk statt -> Zusätzliche Latenzen, erforderliche Rechenleistung für Netzwerk I/O und De-/Serialisierung
 	- Diese Nachteile sollen durch Vorteile wie unabhängige Deployments und Skalierbarkeit ausgeglichen werden. In monolithischen Systemen müssen immer alle Komponenten gleichzeitig deployed werden. -> Aufwändig und Riskant
-	- D.h. beim Umstieg auf Microservice Architekturen werden betriebliche / organisatorische Vorteile gegen Performance eingetauscht
+	- D.h. beim Umstieg auf Microservices Architekturen werden betriebliche / organisatorische Vorteile gegen Performance eingetauscht
 
 https://www.atlassian.com/de/microservices/microservices-architecture#:~:text=Eine%20Microservice%2DArchitektur%20teilt%20eine,unabhängig%20bereitgestellt%20und%20skaliert%20werden.
 ## Wichtige Merkmale einer Microservice-Architektur
