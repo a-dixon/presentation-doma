@@ -1,6 +1,7 @@
 - SOA, DDD, Clean Architecture sind im Ansatz vorhanden, jedoch nicht komplett.
 - Mischmasch der für Uber passt
 - Theoretische Architekturen nicht unbedingt in Praxis zu 100% anwendbar
+- Anpassung möglicherweise auch großer operativer Vorteil
 
 - Umstieg auf Microservices Architektur bringt organisatorischer Wandel mit sich
 
