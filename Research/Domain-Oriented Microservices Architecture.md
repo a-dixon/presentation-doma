@@ -1,0 +1,38 @@
+- Domains sind Sammlungen in Beziehung stehender Microservices
+- Beispiele von Domains bei Uber
+	- Map Search Engine
+	- Fare Service
+	- Matching Platform
+---
+- Layers sind Sammlungen von Domains ![[Layer-Architecture.png]] 
+- Layer bei Uber
+	- Edge
+		- Funktionalität, um Uber Services zu veröffentlichen. Aware gegenüber mobilen Applikationen.
+	- Presentation
+		- Funktionalität, die direkt zu Funktionen gehören, die in einer Consumer-facing Applikation sind (mobile / web).
+	- Product
+		- Funktionalität, die spezifisch für Produktkategorie ist, aber agnostisch gegenüber Anwendungen ist, z.B. "request a ride" Logik.
+	- Business
+		- Funktionalität, die Uber nutzt, aber nicht spezifisch für eine Produktkategorie ist.
+	- Infrastructure
+		- Funktionalität, die von jeder Engineering Organisation genutzt werden kann, wie Storage und Netzwerk.
+---
+- Gateways sind Schnittstellen von Domains
+- Einschränkung von Abhängigkeiten, Abstraktion der Komplexität in der Kommunikation zwischen Services / Domains
+---
+- Extensions sind ein Mechanismus um Domains zu erweitern
+- Ein Service wird in seiner Funktionalität erweitert, ohne die Implementierung des Services zu ändern und ohne die Verfügbarkeit und Resilienz zu beeinflussen.
+- Bei Uber gibt es zwei Extension Models:
+	- Logik Extensions
+	- Data Extensions
+- Logik Extensions
+	- Logik eines Services erweitern
+	- Variation des *provider* oder *plugin* Patterns mit Interface, das auf "service-by-service" Basis definiert ist
+	- z.B.: Extension die prüft, ob ein Fahrer online gehen kann, das heißt Fahrten anbieten kann. (Prüfung ob Führerschein vorhanden, Sicherheit des Fahrzeugs, ...)
+- Data Extensions
+	- Mechanismus, um einem Interface beliebige Daten hinzuzufügen
+	- Vermeidet das Aufblasen der Kerndatenmodelle der Plattform
+	- beliebige Daten werden z.B. von Services gespeichert oder an Logik Extension weitergegeben
+	- Kernplattform ist daher nie verantwortlich für den beliebigen Kontext der Daten
+- Custom Extensions
+	- einige Teams bei Uber haben eigene Extensions eingeführt, die speziell für deren Domain ist
