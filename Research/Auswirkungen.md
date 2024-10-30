@@ -11,12 +11,14 @@ Notizen:
 ## Probleme
 
 - Wenn man durch die Gateways hindurch blicken will, um die Logik dahinter zu verstehen (bspw. Debuggen) muss eine Abstimmung mit anderen Teams stattfinden
-- Durchsetzung der verschiedenen Maßnahmen wurde nicht erläutert, aber essenziell
 - Latenzbalg verschlechtert durch eingeschobene Gateways
 - Extensions
 	- Antipattern legal geworden?
 	- Weichen Modularisierung auf?
 - Verkomplizierung der Infrastruktur um ein gewaltiges
 	- Gleichzeitig steigende Kosten
+
+## Weiteres
+- Durchsetzung der verschiedenen Maßnahmen wurde nicht erläutert, aber essenziell
 - Durch stärkere Modularisierung (Microservices, Gateways) sinkt die Beobachtbarkeit des Systems
 	- Dieser Aspekt erfordert Aufwand, wie [UBER gezeigt hat](https://www.uber.com/en-DE/blog/distributed-tracing/)
