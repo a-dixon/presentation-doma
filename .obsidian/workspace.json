@@ -4,23 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "25f86eb36d78d32f",
+        "id": "2e8ea84430dc9d1f",
         "type": "tabs",
         "children": [
           {
-            "id": "eeebe073e77e9fdd",
+            "id": "45df41ae0879e6af",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Domain-Oriented Microservices Architecture von Uber.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Domain-Oriented Microservices Architecture von Uber"
+            }
+          },
+          {
+            "id": "76a7f1cfb106f026",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Sources/Podcast/Podcast Summary by RecallAI.md",
-                "staged": true
+                "file": "Research/Clean Architecture.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (Podcast Summary by RecallAI)"
+              "icon": "lucide-file",
+              "title": "Clean Architecture"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "right": {
     "id": "c95e0d1731e94e09",
@@ -92,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/Clean Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Clean Architecture"
             }
           },
           {
@@ -135,9 +155,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Research/Clean Architecture.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Clean Architecture"
             }
           },
           {
@@ -168,24 +190,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eeebe073e77e9fdd",
+  "active": "76a7f1cfb106f026",
   "lastOpenFiles": [
-    "Sources/Podcast/Podcast Summary by RecallAI.md",
-    "Sources/Podcast/Podcast (von Linus).md",
+    "Research/Clean Architecture.md",
+    "Research/Domain-Oriented Microservices Architecture.md",
+    "Domain-Oriented Microservices Architecture von Uber.md",
+    "Research/Auswirkungen.md",
+    "Research/DDD.md",
+    "Research/Bewertung der Fallstudie.md",
     "Sources/Uber Documentation.md",
+    "Sources/Podcast/Podcast (von Linus).md",
+    "README.md",
+    "Research/Microservices.md",
+    "Research/SOA.md",
+    "Research/Einleitung.md",
+    "Research/Implementierung von Uber.md",
+    "static/Layer-Architecture.png",
+    "static",
+    "Sources/Podcast/Podcast Summary by RecallAI.md",
     "Sources/Podcast",
     "Sources",
-    "Domain-Oriented Microservices Architecture von Uber.md",
-    "README.md",
-    "Research/Implementierung von Uber.md",
-    "Research/Microservices.md",
-    "Research/Auswirkungen.md",
-    "Research/Bewertung der Fallstudie.md",
-    "Research/Domain-Oriented Microservices Architecture.md",
-    "Research/Clean Architecture.md",
-    "Research/SOA.md",
-    "Research/DDD.md",
-    "Research/Einleitung.md",
     "Research"
   ]
 }
