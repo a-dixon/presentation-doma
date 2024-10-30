@@ -6,7 +6,7 @@
 2. Grundlagen (Dominik)
 	- [[Microservices]]
 	- [[DDD]]
-	- [[SOA]]
+	- [[SOA (= Service oriented architecture)]]
 	- [[Clean Architecture]] (Alex)
 3. [[Domain-Oriented Microservices Architecture]] (Alex)
 	- "We think of DOMA as innovative only insofar as it is a relatively novel way to leverage established design principles in large distributed systems in large organizations."
