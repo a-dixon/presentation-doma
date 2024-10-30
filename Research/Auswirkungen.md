@@ -5,6 +5,7 @@ Allgemein gefasst, sollten hier zum einen die Vorteile/ gelösten Probleme aufge
 Notizen:
 - Versionierung und Deployment von einzelnen Services leichter möglich
 - Weiterentwicklung durch stärkere Modularisierung mit Gateways leichter möglich (weniger Migrationen erforderlich)
+	- 50% aller Microservices werden in 1,5 Jahren neu geschrieben
 - Weniger Pfuschen in andere Teams (?)
 
 ## Herausforderung
@@ -16,3 +17,7 @@ Notizen:
 - Extensions
 	- Antipattern legal geworden?
 	- Weichen Modularisierung auf?
+- Verkomplizierung der Infrastruktur um ein gewaltiges
+	- Gleichzeitig steigende Kosten
+- Durch stärkere Modularisierung (Microservices, Gateways) sinkt die Beobachtbarkeit des Systems
+	- Dieser Aspekt erfordert Aufwand, wie [UBER gezeigt hat](https://www.uber.com/en-DE/blog/distributed-tracing/)
