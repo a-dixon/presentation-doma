@@ -8,9 +8,8 @@ Notizen:
 	- 50% aller Microservices werden in 1,5 Jahren neu geschrieben
 - Weniger Pfuschen in andere Teams (?)
 
-## Herausforderung
+## Probleme
 
-Notizen:
 - Wenn man durch die Gateways hindurch blicken will, um die Logik dahinter zu verstehen (bspw. Debuggen) muss eine Abstimmung mit anderen Teams stattfinden
 - Durchsetzung der verschiedenen Maßnahmen wurde nicht erläutert, aber essenziell
 - Latenzbalg verschlechtert durch eingeschobene Gateways
