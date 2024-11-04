@@ -3,11 +3,19 @@
 - Gründung März 2009 in San Francisco - https://www.uber.com/de/newsroom/history/
 - Produkte / Dienstleistungen [https://www.uber.com/de/en/?uclick_id=97e7fdf3-88d5-4fff-8fa5-eec9198df8c5]
 	- Ride
+		- Fahrservice vergleichbar mit Taxi
 	- Drive
-	- Deliver
+		- Gegenstück zu Ride - nur für die Fahrer
 	- Eat
+		- Essen bestellen
+	- Deliver
+		- Gegenstück zu Eat - nur für die Fahrer
 	- Uber for Business
+		- Kombidienstleistung für Geschäftskunden 
+			- Geschäftsreisen und Essensbestellungen
 	- Uber Freight
+		- Logistik-Dienstleistung für Unternehmen
+		- Vernetzt Spediteure und Transportaufträge
 
 ### Ausgangssituation (2-stellige Anzahl an Entwicklern) - https://www.uber.com/en-DE/blog/microservice-architecture/
 - 2 Monolithen, folgende Probleme ergaben sich hierbei:

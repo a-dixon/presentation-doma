@@ -5,7 +5,7 @@ https://aws.amazon.com/what-is/service-oriented-architecture/#:~:text=Service%2D
 - Grundprinzipien der SOA
 
 
-Buchquelle: Requirements Modelling and Specification for Service Oriented Architecture - Edition 1 - Ian Graham - 2008 - Publisher: John Wiley % Sons, Incorporated
+**Buchquelle: Requirements Modelling and Specification for Service Oriented Architecture - Edition 1 - Ian Graham - 2008 - Publisher: John Wiley % Sons, Incorporated**
 
 Seite 8:
 - Software-Architekturelles Konzept bei dem Geschäftsanwendungen durch kombinierbare, loose gekoppelte Services gestaltet werden
@@ -19,17 +19,17 @@ Seite 8:
 Seite 9:
 - SOA ist technologieunabhängig
 
-Eigenschaften von Services (S9f)
+**Eigenschaften von Services (S9f)**
 
-- Jeder Service hat einen Vertrag (engl: Contract) - eine Beschreibung was der Service tut, und wie man ihn verwendet
+- Jeder Service hat einen **Vertrag** (engl: **Contract**) - eine Beschreibung was der Service tut, und wie man ihn verwendet
 	- Ein wohldefiniertes Interface ist essenziell
-- Services können gefunden und aufgerufen werden
-- Services sind abstrakt - Nur der Contract ist sichtbar. Implementierungsdetails sind verborgen
-- Services sind autonom. Sie kontrollieren ihre eigene Logik und wie Nachrichten verarbeitet werden
-- Komposition - Services können mit anderen kombiniert werden, um neue Geschäftsanforderungen zu erfüllen
-- Loose Kopplung - Minimierung von Abhängigkeiten zwischen Services
-- Services sind Zustandslos - diese Anforderung kann "aufgeweicht" werden indem der Zustand beim Austausch von Nachrichten mitgeliefert wird
-- Services sind Wiederverwendbar - Systeme sollten derart in Services aufgeteilt werden, dass die Services in anderen System wiederverwendet werden können
+- **Discoverability** - Services können gefunden und aufgerufen werden
+- Services sind **abstrakt** - Nur der Contract ist sichtbar. Implementierungsdetails sind verborgen
+- Services sind **autonom**. Sie kontrollieren ihre eigene Logik und wie Nachrichten verarbeitet werden
+- **Komposition** - Services können mit anderen kombiniert werden, um neue Geschäftsanforderungen zu erfüllen
+- **Loose Kopplung** - Minimierung von Abhängigkeiten zwischen Services
+- Services sind **Zustandslos** - diese Anforderung kann "aufgeweicht" werden indem der Zustand beim Austausch von Nachrichten mitgeliefert wird
+- Services sind **Wiederverwendbar** - Systeme sollten derart in Services aufgeteilt werden, dass die Services in anderen System wiederverwendet werden können
 
 Zusammenhang zwischen den Eigenschaften (S.11):
 - Wiederverwendbarkeit ist abhängig von allen anderen Eigenschaften
@@ -37,4 +37,13 @@ Zusammenhang zwischen den Eigenschaften (S.11):
 
 Seite 14:
 - Zusammenfassend ist der perfekte Service eine Black Box, die lose gekoppelt zu allen Benutzern ist. Seine Funktionalität ist Input-Verarbeitung-Output, ohne jegliche "Erinnerung" an den Input nachdem der Output ausgegeben wurde
-- Services müssen erweiteterbar sein, um sie an neue Anforderungen anzupassen
+- Services müssen erweiterbar sein, um sie an neue Anforderungen anzupassen
+
+**Potenzielle Vorteile von SOA**
+- Schnellere Entwicklung
+- Verbesserte Wartbarkeit
+- Mehr Wiederverwendbare Business Logik
+- Erhöhte Konsistenz (vielleicht eher passend: Kohärenz) im Unternehmen
+- Verbesserte Kommunikation und Koordination zwischen Business und IT
+- Bessere "Seperation of Concerns"
+
