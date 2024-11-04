@@ -5,6 +5,7 @@ https://www.openknowledge.de/blog/domain-driven-design
 
 - Konzept zur Lösung von Problem innerhalb ihrer Fachlichkeit
 - Fokus auf fachliche Domäne
+	- Im gesamten Prozess (Auch neben der Entwicklung -> Ubiquitous Language)
 - Zwei Ebenen
 	- Tactical Design
 		- Findung, Aufbau, Implementierung von Domänen
