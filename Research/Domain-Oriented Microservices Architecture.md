@@ -1,9 +1,12 @@
 Linus
 - Domains sind Sammlungen in Beziehung stehender Microservices
+	- Im Gegensatz zu DDD keine klare Definition von Zusammengehörigkeiten
 - Beispiele von Domains bei Uber
-	- Map Search Engine
-	- Fare Service
-	- Matching Platform
+	- Map Search Engine (Suche auf der Karte)
+	- Fare Service (Wie viel kostet eine Fahrt)
+	- Matching Platform (Hier Fahrer, hier Fahrgast -> Die fahren zusammen)
+- Uber Maps sind 80 Microservices in 3 Domänen
+- Voraussetzung für weitere Verbesserungen
 ---
 Linus
 - Gateways sind Schnittstellen von Domains
