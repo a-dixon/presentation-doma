@@ -37,13 +37,16 @@ Zusammenhang zwischen den Eigenschaften (S.11):
 
 Seite 14:
 - Zusammenfassend ist der perfekte Service eine Black Box, die lose gekoppelt zu allen Benutzern ist. Seine Funktionalität ist Input-Verarbeitung-Output, ohne jegliche "Erinnerung" an den Input nachdem der Output ausgegeben wurde
-- Services müssen erweiterbar sein, um sie an neue Anforderungen anzupassen
+- Weitere Eigenschaft die oben nicht genannt wurde: Services müssen erweiterbar sein, um sie an neue Anforderungen anzupassen
 
 **Potenzielle Vorteile von SOA**
 - Schnellere Entwicklung
 - Verbesserte Wartbarkeit
 - Mehr Wiederverwendbare Business Logik
-- Erhöhte Konsistenz (vielleicht eher passend: Kohärenz) im Unternehmen
+- Erhöhte Konsistenz im Unternehmen
 - Verbesserte Kommunikation und Koordination zwischen Business und IT
 - Bessere "Seperation of Concerns"
 
+Ergmöglichende / Treibende Technologien:
+- XML zur Beschreibung der Schnittstellen
+- ESBs (Enterprise Service Bus) zur zentralisierten und standardisierten Kommunikation mit den Services
